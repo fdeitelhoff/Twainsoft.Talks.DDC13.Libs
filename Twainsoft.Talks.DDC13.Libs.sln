@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. NuDoc", "2. NuDoc", "{C61CCE4C-B76B-4ABC-A8D2-F89C66A2ED76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. FluentAssertions", "3. FluentAssertions", "{9BF49763-2A14-48CA-AC8B-AC2E5AD0ED0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twainsoft.Talks.DDC13.Libs.FluentAsserts", "FluentAssertions\Twainsoft.Talks.DDC13.Libs.FluentAsserts\Twainsoft.Talks.DDC13.Libs.FluentAsserts.csproj", "{8F927BFC-D7C5-444A-94E6-DDF0AD998A74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. FeatureSwitcher", "4. FeatureSwitcher", "{9BD8AAAA-0D81-42E6-9AAA-37BAA6A04D81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twainsoft.Talks.DDC13.Libs.FeatureSwitch", "FeatureSwitcher\Twainsoft.Talks.DDC13.Libs.FeatureSwitch\Twainsoft.Talks.DDC13.Libs.FeatureSwitch.csproj", "{7E2F3080-1F57-4BD2-9803-1B3FBEFA4022}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. LibZ", "1. LibZ", "{FF8A566C-6395-4BBA-87FE-D3EC86AD8BF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twainsoft.Talks.DDC13.Libs.LibZ", "LibZ\Twainsoft.Talks.DDC13.Libs.LibZ\Twainsoft.Talks.DDC13.Libs.LibZ.csproj", "{21F43C72-A6E5-4C8E-9348-9211E59EA06A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{25A0C83F-7464-407C-BBF6-786FBB6D3666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twainsoft.Talks.DDC13.Libs.LibZ.Module1", "LibZ\Modules\Twainsoft.Talks.DDC13.Libs.LibZ.Module1\Twainsoft.Talks.DDC13.Libs.LibZ.Module1.csproj", "{6E2E5BC0-AF9C-4AF9-A0B6-6AB5EE1DF4CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twainsoft.Talks.DDC13.Libs.LibZ.Module2", "LibZ\Modules\Twainsoft.Talks.DDC13.Libs.LibZ.Module2\Twainsoft.Talks.DDC13.Libs.LibZ.Module2.csproj", "{744E7F22-875E-45C5-BD92-0A82B021C8A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Portable.Licensing", "5. Portable.Licensing", "{12B9DE13-BDAA-4D3F-BFEB-352D3D527802}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twainsoft.Talks.DDC13.Libs.PortableLicensing", "PortableLicensing\Twainsoft.Talks.DDC13.Libs.PortableLicensing\Twainsoft.Talks.DDC13.Libs.PortableLicensing.csproj", "{E37CC17F-B70B-417D-9530-DB5E5ED93464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twainsoft.Talks.DDC13.Libs.NuDocExample", "NuDoc\Twainsoft.Talks.DDC13.Libs.NuDocExample\Twainsoft.Talks.DDC13.Libs.NuDocExample.csproj", "{D0AED211-6908-4CEB-A3F6-40C1CF556913}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F927BFC-D7C5-444A-94E6-DDF0AD998A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F927BFC-D7C5-444A-94E6-DDF0AD998A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F927BFC-D7C5-444A-94E6-DDF0AD998A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F927BFC-D7C5-444A-94E6-DDF0AD998A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E2F3080-1F57-4BD2-9803-1B3FBEFA4022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E2F3080-1F57-4BD2-9803-1B3FBEFA4022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E2F3080-1F57-4BD2-9803-1B3FBEFA4022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E2F3080-1F57-4BD2-9803-1B3FBEFA4022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21F43C72-A6E5-4C8E-9348-9211E59EA06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F43C72-A6E5-4C8E-9348-9211E59EA06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F43C72-A6E5-4C8E-9348-9211E59EA06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F43C72-A6E5-4C8E-9348-9211E59EA06A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2E5BC0-AF9C-4AF9-A0B6-6AB5EE1DF4CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2E5BC0-AF9C-4AF9-A0B6-6AB5EE1DF4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2E5BC0-AF9C-4AF9-A0B6-6AB5EE1DF4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2E5BC0-AF9C-4AF9-A0B6-6AB5EE1DF4CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744E7F22-875E-45C5-BD92-0A82B021C8A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744E7F22-875E-45C5-BD92-0A82B021C8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744E7F22-875E-45C5-BD92-0A82B021C8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744E7F22-875E-45C5-BD92-0A82B021C8A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37CC17F-B70B-417D-9530-DB5E5ED93464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37CC17F-B70B-417D-9530-DB5E5ED93464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37CC17F-B70B-417D-9530-DB5E5ED93464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37CC17F-B70B-417D-9530-DB5E5ED93464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0AED211-6908-4CEB-A3F6-40C1CF556913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0AED211-6908-4CEB-A3F6-40C1CF556913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0AED211-6908-4CEB-A3F6-40C1CF556913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0AED211-6908-4CEB-A3F6-40C1CF556913}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0AED211-6908-4CEB-A3F6-40C1CF556913} = {C61CCE4C-B76B-4ABC-A8D2-F89C66A2ED76}
+		{8F927BFC-D7C5-444A-94E6-DDF0AD998A74} = {9BF49763-2A14-48CA-AC8B-AC2E5AD0ED0E}
+		{7E2F3080-1F57-4BD2-9803-1B3FBEFA4022} = {9BD8AAAA-0D81-42E6-9AAA-37BAA6A04D81}
+		{21F43C72-A6E5-4C8E-9348-9211E59EA06A} = {FF8A566C-6395-4BBA-87FE-D3EC86AD8BF2}
+		{25A0C83F-7464-407C-BBF6-786FBB6D3666} = {FF8A566C-6395-4BBA-87FE-D3EC86AD8BF2}
+		{6E2E5BC0-AF9C-4AF9-A0B6-6AB5EE1DF4CC} = {25A0C83F-7464-407C-BBF6-786FBB6D3666}
+		{744E7F22-875E-45C5-BD92-0A82B021C8A7} = {25A0C83F-7464-407C-BBF6-786FBB6D3666}
+		{E37CC17F-B70B-417D-9530-DB5E5ED93464} = {12B9DE13-BDAA-4D3F-BFEB-352D3D527802}
+	EndGlobalSection
+EndGlobal
